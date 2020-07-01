@@ -3,9 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: aliceblue;
+}
 
 .container {
     min-height: 100%;
+    margin-bottom: 100px;
 }
 
 footer {
@@ -24,16 +28,11 @@ main {
     text-align: justify;
 }
 
-.text-muted {
-    margin-bottom: 150px;
-}
-
 .form-group, .card-text {
     text-align: left;
 }
 
 /* Media Queries */
-
 /* Mobile  */
 @media only screen and (max-width: 575px) {
     img {
