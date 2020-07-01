@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 footer {
     position: fixed;
     left: 0px;
@@ -19,3 +17,4 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
