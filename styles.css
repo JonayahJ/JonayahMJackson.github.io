@@ -24,3 +24,43 @@ main {
     text-align: justify;
 }
 
+.text-muted {
+    margin-bottom: 150px;
+}
+
+.form-group, .card-text {
+    text-align: left;
+}
+
+/* Media Queries */
+
+/* Mobile  */
+@media only screen and (max-width: 575px) {
+    img {
+      width: 70%;
+      height: auto;
+    }
+  }
+
+@media only screen and (min-width: 576px) {
+    img {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    img {
+        width: 90%;
+        height: auto;
+      }
+    }
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    img {
+        width: 100%;
+        height: auto;
+      }
+    }
