@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+footer {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    background: #eee;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
