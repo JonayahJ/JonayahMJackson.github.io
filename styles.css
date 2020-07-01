@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 
+.container {
+    min-height: 100%;
+}
+
 footer {
+    background-color: #404040;
+    color: #eee;
     position: fixed;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    height: 70px;
-    width: 100%;
-    background: #eee;
-    color: #111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+main {
+    text-align: justify;
 }
 
